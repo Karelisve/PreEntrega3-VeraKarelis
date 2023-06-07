@@ -65,12 +65,6 @@ nav ul li a:hover {
   color: rgb(62, 92, 73);
 }
 
-@media screen and (max-width: 900px) {
-  .titulo-banner {
-    font-size: 3rem;
-    margin-left: 15px;
-  }
-}
 .parrafo-banner {
   font-size: 2rem;
   text-align: center;
@@ -80,19 +74,21 @@ nav ul li a:hover {
   margin-left: 15px;
 }
 
-@media screen and (max-width: 900px) {
-  .parrafo-banner {
-    font-size: 1rem;
-    text-align: center;
-    margin-left: 15px;
-  }
-}
 .banner-1:nth-child(2) {
   margin-bottom: 10px;
   margin: 5px;
 }
 
 @media screen and (max-width: 900px) {
+  .titulo-banner {
+    font-size: 3rem;
+    margin-left: 15px;
+  }
+  .parrafo-banner {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 15px;
+  }
   .banner-1 {
     width: 700px;
     height: 34px;
