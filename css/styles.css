@@ -175,7 +175,7 @@ nav ul li a:hover {
   background-color: white;
 }
 .cards button:hover {
-  background-color: rgb(184, 105, 139);
+  background-color: rgb(196, 141, 165);
   color: rgb(255, 255, 255);
 }
 
@@ -293,10 +293,10 @@ footer .autor p:nth-child(2):hover {
 /*CONTACTO*/
 .form {
   margin: 30px 0px 30px 0px;
-  box-shadow: 0px 0px 20px rgba(42, 22, 30, 0.5);
+  box-shadow: 0px 0px 20px rgba(6, 2, 4, 0.3);
   border-radius: 8px;
   padding: 30px 20px;
-  background-color: rgba(224, 199, 209, 0.5);
+  background-color: rgba(110, 155, 127, 0.2);
 }
 .form .inputs {
   border: none;
@@ -305,7 +305,7 @@ footer .autor p:nth-child(2):hover {
 }
 .form .inputs label {
   margin: 10px 10px 10px;
-  color: black;
+  color: rgb(62, 92, 73);
   font-size: 15px;
 }
 
@@ -319,12 +319,12 @@ footer .autor p:nth-child(2):hover {
   padding: 10px 40px;
   text-decoration: none;
   background-color: #fff;
-  color: black;
+  color: rgb(62, 92, 73);
 }
 .input-button button:hover {
-  color: rgb(255, 255, 255);
-  box-shadow: 3px 8px 22px rgba(197, 138, 163, 0.5);
-  background-color: rgb(193, 131, 158);
+  color: rgb(131, 24, 68);
+  box-shadow: 3px 8px 22px rgba(147, 106, 124, 0.5);
+  background-color: rgb(234, 225, 229);
 }
 
 /*FORMULARIO - DETALLES DE CONTACTO*/
@@ -332,8 +332,8 @@ footer .autor p:nth-child(2):hover {
   margin: 30px 10px;
 }
 .contact-details h2 {
-  background-color: #cbdbd0;
-  color: black;
+  background-color: rgba(110, 155, 127, 0.2);
+  color: rgb(0, 0, 0);
   font-size: 1.5rem;
   letter-spacing: 1px;
   text-align: center;
@@ -353,7 +353,7 @@ footer .autor p:nth-child(2):hover {
 .contact-details .details-1 p {
   margin: 10px;
   padding: 10px;
-  background-color: rgba(110, 155, 127, 0.2);
+  background-color: rgba(86, 148, 110, 0.2);
   border-radius: 8px;
 }
 
