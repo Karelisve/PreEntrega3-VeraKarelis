@@ -153,7 +153,7 @@ nav ul li a:hover {
 .cards {
   font-family: "Kalam", cursiva;
   margin-top: 20px;
-  background-color: rgba(86, 145, 109, 0.2);
+  background-color: rgba(86, 148, 110, 0.2);
 }
 .cards img {
   width: 290px;
@@ -169,14 +169,14 @@ nav ul li a:hover {
 }
 .cards button {
   margin: 10px;
-  padding: 2px 10px;
+  padding: 2px 20px;
   border-radius: 6px;
-  color: #fff;
-  background-color: rgb(115, 159, 132);
+  color: rgb(16, 16, 16);
+  background-color: white;
 }
 .cards button:hover {
-  background-color: rgb(255, 248, 251);
-  color: rgb(131, 24, 68);
+  background-color: rgb(184, 105, 139);
+  color: rgb(255, 255, 255);
 }
 
 .cards:hover {
@@ -268,12 +268,12 @@ footer .autor p:nth-child(2):hover {
   padding-top: 10px;
   font-family: "Kalam", cursiva;
   letter-spacing: 2px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(158, 189, 170);
+  color: rgb(62, 92, 73);
+  background-color: rgba(86, 148, 110, 0.2);
 }
 .page-title p {
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 17px;
   padding-bottom: 10px;
 }
 
@@ -293,10 +293,10 @@ footer .autor p:nth-child(2):hover {
 /*CONTACTO*/
 .form {
   margin: 30px 0px 30px 0px;
-  box-shadow: 0px 0px 20px rgba(82, 114, 94, 0.5);
+  box-shadow: 0px 0px 20px rgba(42, 22, 30, 0.5);
   border-radius: 8px;
   padding: 30px 20px;
-  background-color: rgba(110, 155, 127, 0.2);
+  background-color: rgba(224, 199, 209, 0.5);
 }
 .form .inputs {
   border: none;
@@ -305,7 +305,7 @@ footer .autor p:nth-child(2):hover {
 }
 .form .inputs label {
   margin: 10px 10px 10px;
-  color: rgb(62, 92, 73);
+  color: black;
   font-size: 15px;
 }
 
@@ -322,9 +322,9 @@ footer .autor p:nth-child(2):hover {
   color: black;
 }
 .input-button button:hover {
-  color: rgb(54, 3, 28);
-  box-shadow: 3px 8px 22px rgba(160, 77, 112, 0.5);
-  background-color: rgb(255, 248, 251);
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 8px 22px rgba(197, 138, 163, 0.5);
+  background-color: rgb(193, 131, 158);
 }
 
 /*FORMULARIO - DETALLES DE CONTACTO*/
@@ -341,7 +341,6 @@ footer .autor p:nth-child(2):hover {
   padding: 10px;
 }
 .contact-details .details-1 {
-  background-color: rgba(110, 155, 127, 0.2);
   color: black;
   padding: 5px;
   display: flex;
