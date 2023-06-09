@@ -72,6 +72,7 @@ nav ul li a:hover {
   margin: 0px;
   padding-left: 10px;
   margin-left: 15px;
+  color: rgb(43, 64, 51);
 }
 
 .banner-1:nth-child(2) {
@@ -107,7 +108,7 @@ nav ul li a:hover {
   padding: 10px 10px;
   text-decoration: none;
   background-color: #fff;
-  color: black;
+  color: rgb(43, 64, 51);
   box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
 }
 .banner-1 a:hover {
