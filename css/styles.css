@@ -339,6 +339,7 @@ footer .autor p:nth-child(2):hover {
   text-align: center;
   font-family: "Kalam", cursiva;
   padding: 10px;
+  border-radius: 8px;
 }
 .contact-details .details-1 {
   color: black;
@@ -366,6 +367,7 @@ footer .autor p:nth-child(2):hover {
 
 /*PAGE CARE*/
 .imagen-cuidado {
+  margin-top: 30px;
   width: 290px;
   height: 410px;
   background-color: rgba(224, 199, 209, 0.5);
@@ -374,7 +376,6 @@ footer .autor p:nth-child(2):hover {
   width: 270px;
   height: 390px;
   margin-top: 10px;
-  float: left;
 }
 
 @media screen and (max-width: 990px) {
@@ -435,6 +436,47 @@ footer .autor p:nth-child(2):hover {
   height: 500px;
 }
 
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+  padding: 10px;
+  position: relative;
+}
+.about-img img {
+  width: 250px;
+  height: 350px;
+}
+
+.contenido-hover {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background: rgba(224, 199, 209, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+.contenido-hover h2 {
+  font-size: 30px;
+  color: rgb(54, 3, 28);
+}
+.contenido-hover p {
+  font-size: 18px;
+  color: rgb(54, 3, 28);
+}
+.contenido-hover:hover {
+  opacity: 1;
+}
+
 @media screen and (max-width: 850px) {
   .video {
     width: 380px;
@@ -453,20 +495,6 @@ footer .autor p:nth-child(2):hover {
     width: 150px;
     height: 250px;
   }
-}
-.about-img {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-}
-.about-img img {
-  width: 250px;
-  height: 350px;
-}
-
-.about-img:hover {
-  background-color: rgba(224, 199, 209, 0.5);
-  border-radius: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
