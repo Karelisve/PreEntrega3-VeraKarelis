@@ -196,16 +196,15 @@ nav {
         border-radius: 6px;
         color: rgb(16, 16, 16);
         background-color: white;
+        &:hover {
+            background-color: rgb(196, 141, 165);
+            color: rgb(255, 255, 255);
+        }
     }
-    button:hover {
-        background-color: rgb(196, 141, 165);
-        color: rgb(255, 255, 255);
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
     }
-}
-
-.cards:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
 }
 
 .card-link {
@@ -218,11 +217,11 @@ nav {
         background-color:#fff;
         color: black;
         box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
-    }
-    a:hover {
-        color:rgb(54, 3, 28);
-        box-shadow:3px 8px 22px rgba(160, 77, 112, 0.5);
-        background-color: rgb(255, 248, 251);
+        &:hover {
+            color:rgb(54, 3, 28);
+            box-shadow:3px 8px 22px rgba(160, 77, 112, 0.5);
+            background-color: rgb(255, 248, 251);
+        }
     }
 }
 
@@ -250,20 +249,20 @@ footer {
             li {
                 margin: 0px 10px;
                 list-style-type: none;
-            }
-            li:hover {
-                transform: translateY(-2px);
+                &:hover {
+                    transform: translateY(-2px);
+                }
             }
         }
-    }
-    .social-title {
-        text-align: center;
-        letter-spacing: 1px;
-        font-size: 30px;
-        padding: 20px 10px 5px 10px;
-        font-family: 'Kalam', cursiva;
-        p {
-            font-size: 1rem;
+        .social-title {
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: 30px;
+            padding: 20px 10px 5px 10px;
+            font-family: 'Kalam', cursiva;
+            p {
+                font-size: 1rem;
+            }
         }
     }
     .autor {
@@ -471,40 +470,38 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.about-img {
-    padding: 10px;
-    position: relative;
-    img {
-        width: 250px;
-        height: 350px;
+    .about-img {
+        padding: 10px;
+        position: relative;
+        img {
+            width: 250px;
+            height: 350px;
+        }
     }
-}
-
-.contenido-hover{
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    background: rgba(224, 199, 209, 0.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.5s;
-    h2{
-        font-size: 30px;
-        color: rgb(54, 3, 28);
-    }
-    p {
-        font-size: 18px;
-        color: rgb(54, 3, 28);
-    }
-    &:hover {
-        opacity: 1;
+    .contenido-hover{
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        background: rgba(224, 199, 209, 0.7);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: 0.5s;
+        h2{
+            font-size: 30px;
+            color: rgb(54, 3, 28);
+        }
+        p {
+            font-size: 18px;
+            color: rgb(54, 3, 28);
+        }
+        &:hover {
+            opacity: 1;
+        }
     }
 }
 
