@@ -1,0 +1,66 @@
+/*CARDS PRODUCTOS*/
+main {
+    section {
+        .cards-title {
+            text-align: center;
+            font-size: 10px;
+            padding-top: 20px;
+            font-family: 'Kalam', cursiva;
+            letter-spacing: 2px;
+            color: rgb(62, 92, 73);
+        }
+        
+        .cards {
+            font-family: 'Kalam', cursiva;
+            margin-top: 20px;
+            background-color: rgba(86, 148, 110, 0.2);
+            img {
+                width: 295px;
+                height: 350px;
+            }
+            h2 {
+                font-size: 18px;
+                margin: 0px;
+            }
+            p {
+                padding: 0px;
+                margin: 0px;
+            }
+            button {
+                margin: 10px;
+                padding: 2px 20px;
+                border-radius: 6px;
+                color: rgb(16, 16, 16);
+                background-color: white;
+                &:hover {
+                    background-color: rgb(196, 141, 165);
+                    color: rgb(255, 255, 255);
+                }
+            }
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
+            }
+        }
+        
+        .card-link {
+            margin: 30px 0px;
+            text-align: center;
+            a {
+                border-radius: 6px;
+                padding: 10px 20px;
+                text-decoration: none;
+                background-color:#fff;
+                color: black;
+                box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+                &:hover {
+                    color:rgb(54, 3, 28);
+                    box-shadow:3px 8px 22px rgba(160, 77, 112, 0.5);
+                    background-color: rgb(255, 248, 251);
+                }
+            }
+        }
+    }
+}
+
+

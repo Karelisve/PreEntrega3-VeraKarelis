@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2? family= Kalam & family= Lato:ital,wght@0,400;1,300 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,55 +8,120 @@
 }
 
 /* Barra de Navegación*/
-.navbar {
+header .navbar {
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
-.navbar .navbar-brand {
+header .navbar .logo {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+header .navbar .logo .navbar-brand {
   margin-right: auto;
 }
-
-.navbar-nav {
+header .navbar .logo img {
+  width: 100px;
+  height: 50px;
+  margin-right: 30px;
+}
+header .navbar .navbar-nav {
   margin-left: auto;
   justify-content: end;
 }
-
-nav ul li a {
+header .navbar .navbar-nav li a {
   text-decoration: none;
   color: black;
   margin: 10px 20px 20px;
   padding: 5px;
 }
-
-nav ul li a:hover {
+header .navbar .navbar-nav li a:hover {
   color: rgb(54, 3, 28);
   box-shadow: 3px 8px 22px rgba(161, 109, 130, 0.5);
   border-radius: 10px;
   background-color: rgb(255, 248, 251);
 }
 
-.logo {
-  margin-left: 10px;
-  margin-right: 30px;
+/*Footer*/
+footer {
+  background-color: rgba(110, 155, 127, 0.2);
 }
-.logo img {
-  width: 100px;
-  height: 50px;
-  margin-right: 30px;
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+}
+footer .social .social-title {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding: 20px 10px 5px 10px;
+}
+footer .social .social-title p {
+  font-size: 1rem;
+}
+footer .social ul {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+footer .social ul li {
+  margin: 0px 10px;
+  list-style-type: none;
+}
+footer .social ul li img {
+  width: 20px;
+  height: 20px;
+}
+footer .social ul li:hover {
+  transform: translateY(-2px);
+}
+footer .autor {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+footer .autor p {
+  padding: 0px;
+  margin: 0px;
+}
+footer .autor p:nth-child(2) {
+  color: rgb(131, 24, 68);
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+footer .autor p:nth-child(2):nth-child(2):hover {
+  letter-spacing: 2px;
+  transition: 0.4s linear;
+}
+
+main section .page-title {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Kalam", cursiva;
+  letter-spacing: 2px;
+  color: rgb(62, 92, 73);
+  background-color: rgba(86, 148, 110, 0.2);
+}
+main section .page-title p {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  padding-bottom: 10px;
 }
 
 /*INDEX MAIN*/
 /*banner*/
-.banner {
+main .banner {
   background-image: url(../img/banner-1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: local;
   padding: 80px 40px;
 }
-
-.titulo-banner {
+main .banner .titulo-banner {
   margin-bottom: 10px;
   font-size: 5rem;
   font-weight: 30px;
@@ -64,8 +129,7 @@ nav ul li a:hover {
   letter-spacing: 10px;
   color: rgb(62, 92, 73);
 }
-
-.parrafo-banner {
+main .banner .parrafo-banner {
   font-size: 2rem;
   text-align: center;
   padding-bottom: 0;
@@ -74,8 +138,23 @@ nav ul li a:hover {
   margin-left: 15px;
   color: rgb(43, 64, 51);
 }
-
-.banner-1:nth-child(2) {
+main .banner .banner-1 a {
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 10px 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: rgb(43, 64, 51);
+  box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
+}
+main .banner .banner-1 a:hover {
+  color: rgb(54, 3, 28);
+  box-shadow: 3px 8px 22px rgba(160, 77, 112, 0.5);
+  background-color: rgb(255, 248, 251);
+}
+main .banner .banner-1 .banner-1:nth-child(2) {
   margin-bottom: 10px;
   margin: 5px;
 }
@@ -100,34 +179,17 @@ nav ul li a:hover {
     font-size: 0.8rem;
   }
 }
-.banner-1 a {
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  border-radius: 6px;
-  padding: 10px 10px;
-  text-decoration: none;
-  background-color: #fff;
-  color: rgb(43, 64, 51);
-  box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
-}
-.banner-1 a:hover {
-  color: rgb(54, 3, 28);
-  box-shadow: 3px 8px 22px rgba(160, 77, 112, 0.5);
-  background-color: rgb(255, 248, 251);
-}
-
-/*INDEX MAIN SECTION 2 */
-.info {
+/*INDEX MAIN SECTION INFO */
+main section .info {
   background-color: rgba(86, 148, 110, 0.2);
   color: rgb(62, 92, 73);
   padding: 20px 80px;
   text-align: center;
 }
-.info h2 {
+main section .info h2 {
   font-size: 25px;
 }
-.info p {
+main section .info p {
   margin-top: 10px;
   color: black;
   font-size: 1rem;
@@ -141,8 +203,8 @@ nav ul li a:hover {
     font-size: 13px;
   }
 }
-/*INDEX MAIN SECTION 3*/
-.cards-title {
+/*CARDS PRODUCTOS*/
+main section .cards-title {
   text-align: center;
   font-size: 10px;
   padding-top: 20px;
@@ -150,45 +212,43 @@ nav ul li a:hover {
   letter-spacing: 2px;
   color: rgb(62, 92, 73);
 }
-
-.cards {
+main section .cards {
   font-family: "Kalam", cursiva;
   margin-top: 20px;
   background-color: rgba(86, 148, 110, 0.2);
 }
-.cards img {
+main section .cards img {
   width: 295px;
   height: 350px;
 }
-.cards h2 {
+main section .cards h2 {
   font-size: 18px;
   margin: 0px;
 }
-.cards p {
+main section .cards p {
   padding: 0px;
   margin: 0px;
 }
-.cards button {
+main section .cards button {
   margin: 10px;
   padding: 2px 20px;
   border-radius: 6px;
   color: rgb(16, 16, 16);
   background-color: white;
 }
-.cards button:hover {
+main section .cards button:hover {
   background-color: rgb(196, 141, 165);
   color: rgb(255, 255, 255);
 }
-.cards:hover {
+main section .cards:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3);
 }
-
-.card-link {
+main section .card-link {
   margin: 30px 0px;
   text-align: center;
 }
-.card-link a {
+main section .card-link a {
   border-radius: 6px;
   padding: 10px 20px;
   text-decoration: none;
@@ -196,95 +256,21 @@ nav ul li a:hover {
   color: black;
   box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
 }
-.card-link a:hover {
+main section .card-link a:hover {
   color: rgb(54, 3, 28);
   box-shadow: 3px 8px 22px rgba(160, 77, 112, 0.5);
   background-color: rgb(255, 248, 251);
 }
 
-/*Footer*/
-footer {
-  background-color: rgba(110, 155, 127, 0.2);
-}
-footer .social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0;
-}
-footer .social img {
-  width: 20px;
-  height: 20px;
-}
-footer .social p {
-  font-family: "Kalam", cursiva;
-}
-footer .social ul {
-  display: flex;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
-}
-footer .social ul li {
-  margin: 0px 10px;
-  list-style-type: none;
-}
-footer .social ul li:hover {
-  transform: translateY(-2px);
-}
-footer .social .social-title {
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 30px;
-  padding: 20px 10px 5px 10px;
-  font-family: "Kalam", cursiva;
-}
-footer .social .social-title p {
-  font-size: 1rem;
-}
-footer .autor {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 15px;
-}
-footer .autor p {
-  padding: 0px;
-  margin: 0px;
-}
-footer .autor p:nth-child(2) {
-  color: rgb(131, 24, 68);
-  font-size: 1rem;
-  padding-bottom: 10px;
-}
-footer .autor p:nth-child(2):hover {
-  letter-spacing: 2px;
-  transition: 0.4s linear;
-}
-
 /*Pagina Productos*/
-.page-title {
-  text-align: center;
-  padding-top: 10px;
-  font-family: "Kalam", cursiva;
-  letter-spacing: 2px;
-  color: rgb(62, 92, 73);
-  background-color: rgba(86, 148, 110, 0.2);
-}
-.page-title p {
-  color: rgb(0, 0, 0);
-  font-size: 17px;
-  padding-bottom: 10px;
-}
-
-.product-title {
+main section .product-title {
   font-size: 1.5rem;
   color: rgb(62, 92, 73);
   padding: 30px 5px;
   margin: 0px;
   letter-spacing: 1px;
 }
-.product-title p:last-child {
+main section .product-title p:last-child {
   font-size: 1rem;
   padding: 0px;
   color: black;
