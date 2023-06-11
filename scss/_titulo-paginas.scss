@@ -15,3 +15,16 @@ main{
         }
     }
 }
+
+@media screen and (max-width:990px) {
+    main{
+        section{
+            .page-title {
+                font-size: 14px;
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }    
+}

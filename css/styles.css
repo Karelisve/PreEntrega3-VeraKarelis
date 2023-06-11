@@ -112,6 +112,14 @@ main section .page-title p {
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 990px) {
+  main section .page-title {
+    font-size: 14px;
+  }
+  main section .page-title p {
+    font-size: 13px;
+  }
+}
 /*INDEX MAIN*/
 /*banner*/
 main .banner {
@@ -160,16 +168,16 @@ main .banner .banner-1 .banner-1:nth-child(2) {
 }
 
 @media screen and (max-width: 900px) {
-  .titulo-banner {
+  main .banner .titulo-banner {
     font-size: 3rem;
     margin-left: 15px;
   }
-  .parrafo-banner {
+  main .banner .parrafo-banner {
     font-size: 1rem;
     text-align: center;
     margin-left: 15px;
   }
-  .banner-1 {
+  main .banner .banner-1 {
     width: 700px;
     height: 34px;
   }
@@ -196,10 +204,10 @@ main section .info p {
 }
 
 @media screen and (max-width: 900px) {
-  .info h2 {
+  main section .info h2 {
     font-size: 15px;
   }
-  .info p {
+  main section .info p {
     font-size: 13px;
   }
 }
@@ -276,48 +284,53 @@ main section .product-title p:last-child {
   color: black;
 }
 
-/*CONTACTO*/
-.form {
+@media screen and (max-width: 990px) {
+  main section .product-title {
+    font-size: 15px;
+  }
+  main section .product-title p:last-child {
+    font-size: 14px;
+  }
+}
+/*FORMULARIO CONTACTO*/
+main section .form {
   margin: 30px 0px 30px 0px;
   box-shadow: 0px 0px 20px rgba(6, 2, 4, 0.3);
   border-radius: 8px;
   padding: 30px 20px;
   background-color: rgba(110, 155, 127, 0.2);
 }
-.form .inputs {
+main section .form .inputs {
   border: none;
   padding: 10px;
   margin: 0;
 }
-.form .inputs label {
+main section .form .inputs label {
   margin: 10px 10px 10px;
   color: rgb(62, 92, 73);
   font-size: 15px;
 }
-
-.input-button {
+main section .form .input-button {
   display: flex;
   justify-content: center;
   font-size: 14px;
 }
-.input-button button {
+main section .form .input-button button {
   border-radius: 8px;
   padding: 10px 40px;
   text-decoration: none;
   background-color: #fff;
   color: rgb(62, 92, 73);
 }
-.input-button button:hover {
+main section .form .input-button button:hover {
   color: rgb(131, 24, 68);
   box-shadow: 3px 8px 22px rgba(147, 106, 124, 0.5);
   background-color: rgb(234, 225, 229);
 }
-
-/*FORMULARIO - DETALLES DE CONTACTO*/
-.contact-details {
+main section .contact-details {
   margin: 30px 10px;
 }
-.contact-details h2 {
+main section .contact-details h2 {
   background-color: rgba(110, 155, 127, 0.2);
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
@@ -327,24 +340,23 @@ main section .product-title p:last-child {
   padding: 10px;
   border-radius: 8px;
 }
-.contact-details .details-1 {
+main section .contact-details .details-1 {
   color: black;
   padding: 5px;
   display: flex;
   align-items: center;
 }
-.contact-details .details-1 img {
+main section .contact-details .details-1 img {
   width: 30px;
   height: 30px;
 }
-.contact-details .details-1 p {
+main section .contact-details .details-1 p {
   margin: 10px;
   padding: 10px;
   background-color: rgba(86, 148, 110, 0.2);
   border-radius: 8px;
 }
-
-.iframe-map {
+main section .contact-details .iframe-map {
   margin-top: 20px;
   padding: 10px;
   display: flex;
@@ -352,90 +364,86 @@ main section .product-title p:last-child {
 }
 
 /*PAGE CARE*/
-.imagen-cuidado {
+main section .imagen-cuidado {
   margin-top: 30px;
   width: 290px;
   height: 410px;
   background-color: rgba(224, 199, 209, 0.5);
 }
-.imagen-cuidado img {
+main section .imagen-cuidado img {
   width: 270px;
   height: 390px;
   margin-top: 10px;
 }
-
-@media screen and (max-width: 990px) {
-  .imagen-cuidado img {
-    width: 190px;
-    height: 220px;
-  }
-  .imagen-cuidado {
-    width: 210px;
-    height: 240px;
-    margin-left: 5px;
-  }
-}
-.parrafo-cuidado {
+main section .parrafo-cuidado {
   text-indent: 30px;
   text-transform: initial;
   margin-top: 10px;
   padding: 10px 20px;
 }
-.parrafo-cuidado h2 {
+main section .parrafo-cuidado h2 {
   text-indent: 0%;
   text-align: center;
   color: rgb(62, 92, 73);
 }
 
-@media screen and (max-width: 1000px) {
-  .parrafo-cuidado {
-    font-size: 15px;
-    text-align: justify;
-    padding: 5px;
-  }
-}
 @media screen and (max-width: 768px) {
-  .parrafo-cuidado {
+  main section .parrafo-cuidado {
     font-size: 14px;
     text-align: justify;
     padding: 5px;
     width: 550px;
   }
-  .parrafo-cuidado h2 {
-    font-size: 18px;
+  main section .parrafo-cuidado h2 {
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 990px) {
-  article {
+  main section .imagen-cuidado {
+    width: 220px;
+    height: 280px;
+    margin-left: 5px;
+  }
+  main section .imagen-cuidado img {
+    width: 200px;
+    height: 260px;
+  }
+  main section article {
     display: flex;
     justify-content: center;
   }
 }
+@media screen and (max-width: 1000px) {
+  main section .parrafo-cuidado {
+    font-size: 15px;
+    text-align: justify;
+    padding: 5px;
+  }
+}
 /*PAGE ABOUT*/
-.video {
+main section .video {
   display: flex;
   justify-content: center;
 }
-.video video {
+main section .video video {
   align-items: center;
   width: 850px;
   height: 500px;
 }
-
-.about-content {
+main section .about-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about-content .about-img {
+main section .about-content .about-img {
   padding: 10px;
   position: relative;
 }
-.about-content .about-img img {
+main section .about-content .about-img img {
   width: 250px;
   height: 350px;
 }
-.about-content .contenido-hover {
+main section .about-content .contenido-hover {
   width: 100%;
   height: 100%;
   top: 0px;
@@ -449,20 +457,20 @@ main section .product-title p:last-child {
   opacity: 0;
   transition: 0.5s;
 }
-.about-content .contenido-hover h2 {
+main section .about-content .contenido-hover h2 {
   font-size: 30px;
   color: rgb(54, 3, 28);
 }
-.about-content .contenido-hover p {
+main section .about-content .contenido-hover p {
   font-size: 18px;
   color: rgb(54, 3, 28);
 }
-.about-content .contenido-hover:hover {
+main section .about-content .contenido-hover:hover {
   opacity: 1;
 }
 
 @media screen and (max-width: 850px) {
-  .video {
+  main section .video {
     width: 380px;
     height: 200px;
     display: flex;
@@ -471,13 +479,9 @@ main section .product-title p:last-child {
     left: 50%;
     transform: translateX(-50%);
   }
-  .video video {
+  main section .video video {
     width: 550px;
     height: 200px;
-  }
-  .video img {
-    width: 150px;
-    height: 250px;
   }
 }
 

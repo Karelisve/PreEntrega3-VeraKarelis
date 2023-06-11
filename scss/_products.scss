@@ -16,3 +16,15 @@ main {
     }
 }
 
+@media screen and (max-width:990px) {
+    main {
+        section{
+            .product-title {
+                font-size: 15px;
+                p:last-child {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -51,18 +51,22 @@ main {
 
 
 @media screen and (max-width: 900px){
-    .titulo-banner {
-        font-size: 3rem;
-        margin-left: 15px;
-    }
-    .parrafo-banner {
-        font-size: 1rem;
-        text-align: center;
-        margin-left: 15px;
-    }
-    .banner-1 {
-        width: 700px;
-        height: 34px;
+    main {
+        .banner {
+            .titulo-banner {
+                font-size: 3rem;
+                margin-left: 15px;
+            }
+            .parrafo-banner {
+                font-size: 1rem;
+                text-align: center;
+                margin-left: 15px;
+            }
+            .banner-1 {
+                width: 700px;
+                height: 34px;
+            }
+        }
     }
 }
 
@@ -94,12 +98,16 @@ main{
 }
 
 @media screen and (max-width: 900px){
-    .info {
-        h2 {
-            font-size: 15px;
-        }
-        p {
-            font-size: 13px;
+    main {
+        section {
+            .info {
+                h2 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
         }
     }
 }
