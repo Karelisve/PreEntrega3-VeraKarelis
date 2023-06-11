@@ -1,19 +1,21 @@
 /*Pagina Productos*/
 main {
     section{
-        .product-title {
-            font-size: 1.5rem;
-            color: $color-titulo;
-            padding: 30px 5px;
-            margin: 0px;
-            letter-spacing: 1px;
-            h2 {
-                font-family: $fuente-2;
-            }
-            p:last-child {
-                font-size: 1rem;
-                padding: 0px;
-                color: $color-basic;
+        div {
+            .product-title {
+                font-size: 1.5rem;
+                color: $color-titulo;
+                padding: 30px 5px;
+                margin: 0px;
+                letter-spacing: 1px;
+                h2 {
+                    font-family: $fuente-2;
+                }
+                p:last-child {
+                    font-size: 1rem;
+                    padding: 0px;
+                    color: $color-basic;
+                }
             }
         }
     }
@@ -22,10 +24,12 @@ main {
 @media screen and (max-width:990px) {
     main {
         section{
-            .product-title {
-                font-size: 15px;
-                p:last-child {
-                    font-size: 14px;
+            div {
+                .product-title {
+                    font-size: 15px;
+                    p:last-child {
+                        font-size: 14px;
+                    }
                 }
             }
         }

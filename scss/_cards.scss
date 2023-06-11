@@ -1,63 +1,63 @@
 /*CARDS PRODUCTOS*/
 main {
     section {
-        .cards-title {
-            text-align: center;
-            font-size: 10px;
-            padding-top: 20px;
-            letter-spacing: 2px;
-            color: $color-titulo;
-            h2 {
-                font-family: $fuente-2;
-            }
-        }
-        
-        .cards {
-            margin-top: 20px;
-            background-color: $color-bg-1;
-            img {
-                width: 295px;
-                height: 350px;
-            }
-            h2 {
-                font-size: 18px;
-                margin: 0px;
-            }
-            p {
-                padding: 0px;
-                margin: 0px;
-            }
-            button {
-                margin: 10px;
-                padding: 2px 20px;
-                border-radius: 6px;
-                color: $color-basic;
-                background-color: $color-bg-w;
-                &:hover {
-                    background-color: $color-bg-hover-link;
-                    color: $color-hover-link;
+        div {
+            .cards-title {
+                text-align: center;
+                font-size: 10px;
+                padding-top: 20px;
+                letter-spacing: 2px;
+                color: $color-titulo;
+                h2 {
+                    font-family: $fuente-2;
                 }
             }
-            &:hover {
-                transform: translateY(-10px);
-                box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
-            }
-        }
-        
-        .card-link {
-            margin: 30px 0px;
-            text-align: center;
-            a {
-                border-radius: 6px;
-                padding: 10px 20px;
-                text-decoration: none;
-                background-color:$color-bg-w;
-                color: $color-basic;
-                box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+            .cards {
+                margin-top: 20px;
+                background-color: $color-bg-1;
+                img {
+                    width: 295px;
+                    height: 350px;
+                }
+                h2 {
+                    font-size: 18px;
+                    margin: 0px;
+                }
+                p {
+                    padding: 0px;
+                    margin: 0px;
+                }
+                button {
+                    margin: 10px;
+                    padding: 2px 20px;
+                    border-radius: 6px;
+                    color: $color-basic;
+                    background-color: $color-bg-w;
+                    &:hover {
+                        background-color: $color-bg-hover-link;
+                        color: $color-hover-link;
+                    }
+                }
                 &:hover {
-                    color:$color-hover-link;
-                    box-shadow:3px 8px 22px $color-shadow-link;
-                    background-color: $color-bg-hover-link;
+                    transform: translateY(-10px);
+                    box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
+                }
+            }
+            .card-link {
+                margin: 30px 0px;
+                text-align: center;
+                a {
+                    border-radius: 6px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    background-color:$color-bg-w;
+                    color: $color-basic;
+                    box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+                    &:hover {
+                        color:$color-hover-link;
+                        box-shadow:3px 8px 22px $color-shadow-link;
+                        background-color: $color-bg-hover-link;
+                    }
                 }
             }
         }
