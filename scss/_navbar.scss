@@ -22,14 +22,14 @@ header{
             li{
                 a {
                     text-decoration: none;
-                    color: black;
+                    color: $color-subtitulos;
                     margin: 10px 20px 20px;
                     padding: 5px;
                     &:hover {
-                        color: rgb(54, 3, 28);
-                        box-shadow: 3px 8px 22px rgba(161, 109, 130, 0.5);
+                        color: $color-hover-link;
+                        box-shadow: 3px 8px 22px $color-shadow-link;
                         border-radius: 10px;
-                        background-color: rgb(255, 248, 251);
+                        background-color: $color-bg-hover-link;
                     }
                 }
             }

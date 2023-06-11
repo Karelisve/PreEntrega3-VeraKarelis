@@ -11,9 +11,9 @@ main {
             margin-bottom: 10px;
             font-size: 5rem;
             font-weight: 30px;
-            font-family: 'Kalam', cursiva;
             letter-spacing: 10px;
-            color: rgb(62, 92, 73);
+            color: $color-titulo;
+            font-family: $fuente-2;
         }
         .parrafo-banner {
             font-size: 2rem;
@@ -22,7 +22,7 @@ main {
             margin: 0px;
             padding-left: 10px;
             margin-left: 15px;
-            color: rgb(43, 64, 51);
+            color: $color-subtitulos;
         }
         .banner-1 {
             a {
@@ -32,13 +32,13 @@ main {
                 border-radius: 6px;
                 padding: 10px 10px;
                 text-decoration: none;
-                background-color: #fff;
-                color: rgb(43, 64, 51);
+                background-color: $color-bg-w;
+                color: $color-subtitulos;
                 box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
                 &:hover {
-                    color:rgb(54, 3, 28);
-                    box-shadow:3px 8px 22px rgba(160, 77, 112, 0.5);
-                    background-color: rgb(255, 248, 251);
+                    color: $color-hover-link;
+                    box-shadow:3px 8px 22px $color-shadow-link;
+                    background-color: $color-bg-hover-link;
                 }
             }
             .banner-1:nth-child(2) {
@@ -81,16 +81,17 @@ main {
 main{
     section{
         .info {
-            background-color: rgba(86, 148, 110, 0.2);
-            color: rgb(62, 92, 73);
+            background-color: $color-bg-1;
+            color: $color-titulo;
             padding: 20px 80px;
             text-align: center;
             h2 {
                 font-size: 25px;
+                font-family: $fuente-2;
             }
             p {
                 margin-top: 10px;
-                color: black;
+                color: $color-basic;
                 font-size: 1rem;
             }
         }

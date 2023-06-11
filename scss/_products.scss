@@ -3,14 +3,17 @@ main {
     section{
         .product-title {
             font-size: 1.5rem;
-            color: rgb(62, 92, 73);
+            color: $color-titulo;
             padding: 30px 5px;
             margin: 0px;
             letter-spacing: 1px;
+            h2 {
+                font-family: $fuente-2;
+            }
             p:last-child {
                 font-size: 1rem;
                 padding: 0px;
-                color: black;
+                color: $color-basic;
             }
         }
     }

@@ -5,15 +5,16 @@ main {
             text-align: center;
             font-size: 10px;
             padding-top: 20px;
-            font-family: 'Kalam', cursiva;
             letter-spacing: 2px;
-            color: rgb(62, 92, 73);
+            color: $color-titulo;
+            h2 {
+                font-family: $fuente-2;
+            }
         }
         
         .cards {
-            font-family: 'Kalam', cursiva;
             margin-top: 20px;
-            background-color: rgba(86, 148, 110, 0.2);
+            background-color: $color-bg-1;
             img {
                 width: 295px;
                 height: 350px;
@@ -30,11 +31,11 @@ main {
                 margin: 10px;
                 padding: 2px 20px;
                 border-radius: 6px;
-                color: rgb(16, 16, 16);
-                background-color: white;
+                color: $color-basic;
+                background-color: $color-bg-w;
                 &:hover {
-                    background-color: rgb(196, 141, 165);
-                    color: rgb(255, 255, 255);
+                    background-color: $color-bg-hover-link;
+                    color: $color-hover-link;
                 }
             }
             &:hover {
@@ -50,13 +51,13 @@ main {
                 border-radius: 6px;
                 padding: 10px 20px;
                 text-decoration: none;
-                background-color:#fff;
-                color: black;
+                background-color:$color-bg-w;
+                color: $color-basic;
                 box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
                 &:hover {
-                    color:rgb(54, 3, 28);
-                    box-shadow:3px 8px 22px rgba(160, 77, 112, 0.5);
-                    background-color: rgb(255, 248, 251);
+                    color:$color-hover-link;
+                    box-shadow:3px 8px 22px $color-shadow-link;
+                    background-color: $color-bg-hover-link;
                 }
             }
         }

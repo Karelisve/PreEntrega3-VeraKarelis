@@ -5,7 +5,7 @@ main {
             margin-top: 30px;
             width: 290px;
             height: 410px;
-            background-color: rgba(224, 199, 209, 0.5);
+            background-color: $color-shadow-link;
             img {
                 width: 270px;
                 height: 390px;
@@ -20,7 +20,7 @@ main {
             h2 {
                 text-indent: 0%;
                 text-align: center;
-                color: rgb(62, 92, 73);
+                color: $color-titulo;
             }
         }
     }

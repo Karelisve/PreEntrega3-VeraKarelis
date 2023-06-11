@@ -1,6 +1,6 @@
 /*Footer*/
 footer {
-    background-color: rgba(110, 155, 127, 0.2);
+    background-color: $color-bg-1;
     .social {
         display: flex;
         align-items: center;
@@ -12,8 +12,13 @@ footer {
             letter-spacing: 1px;
             font-size: 30px;
             padding: 20px 10px 5px 10px;
+            color: $color-subtitulos;
+            h3 {
+                font-family: $fuente-2;
+            }
             p {
                 font-size: 1rem;
+                color: $color-basic;
             }
         }
         ul {
@@ -38,12 +43,15 @@ footer {
         padding-top: 10px;
         text-align: center;
         font-size: 15px;
+        strong {
+            font-family: $fuente-2;
+        }
         p {
             padding: 0px;
             margin: 0px;
         }
         p:nth-child(2){
-            color: rgb(131, 24, 68);
+            color: $color-autor;
             font-size: 1rem;
             padding-bottom: 10px;
             &:nth-child(2):hover {

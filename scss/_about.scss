@@ -28,7 +28,7 @@ main {
                 top: 0px;
                 left: 0px;
                 position: absolute;
-                background: rgba(224, 199, 209, 0.7);
+                background-color: $color-img-hover;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -37,11 +37,11 @@ main {
                 transition: 0.5s;
                 h2{
                     font-size: 30px;
-                    color: rgb(54, 3, 28);
+                    color: $color-hover-link;
                 }
                 p {
                     font-size: 18px;
-                    color: rgb(54, 3, 28);
+                    color: $color-hover-link;
                 }
                 &:hover {
                     opacity: 1;
