@@ -27,7 +27,7 @@ header{
                     padding: 5px;
                     &:hover {
                         color: $color-hover-link;
-                        box-shadow: 3px 8px 22px $color-shadow-link;
+                        box-shadow: map-get($shadow, hover-sombra);
                         border-radius: 10px;
                         background-color: $color-bg-hover-link;
                     }

@@ -40,7 +40,7 @@ main {
                 }
                 &:hover {
                     transform: translateY(-10px);
-                    box-shadow: 0 12px 16px rgba(6, 2, 4, 0.3)
+                    box-shadow: map-get($shadow, hover-cards);
                 }
             }
             .card-link {
@@ -52,10 +52,10 @@ main {
                     text-decoration: none;
                     background-color:$color-bg-w;
                     color: $color-basic;
-                    box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+                    box-shadow: map-get($shadow, hover-sombra);
                     &:hover {
                         color:$color-hover-link;
-                        box-shadow:3px 8px 22px $color-shadow-link;
+                        box-shadow: map-get($shadow, hover-sombra);
                         background-color: $color-bg-hover-link;
                     }
                 }

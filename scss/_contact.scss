@@ -4,7 +4,7 @@ main {
         div {
             .form {
                 margin: 30px 0px 30px 0px;
-                box-shadow: 0px 0px 20px rgba(6, 2, 4, 0.3);
+                box-shadow: map-get($shadow, visible-sombra);
                 border-radius: 8px;
                 padding: 30px 20px;
                 background-color: $color-bg-1;
@@ -30,7 +30,7 @@ main {
                         color: $color-titulo;
                         &:hover {
                             color: $color-hover-link;
-                            box-shadow:3px 8px 22px $color-shadow-link;
+                            box-shadow: map-get($shadow, hover-sombra );
                             background-color: $color-bg-hover-link;
                         }
                     }

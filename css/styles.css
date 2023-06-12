@@ -165,7 +165,6 @@ main .banner div .banner-1 a {
   text-decoration: none;
   background-color: rgb(255, 255, 255);
   color: rgb(43, 64, 51);
-  box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.3);
 }
 main .banner div .banner-1 a:hover {
   color: rgb(54, 3, 28);
@@ -274,7 +273,7 @@ main section div .card-link a {
   text-decoration: none;
   background-color: rgb(255, 255, 255);
   color: rgb(16, 16, 16);
-  box-shadow: 3px 8px 22px rgba(6, 2, 4, 0.5);
+  box-shadow: 3px 8px 22px rgba(177, 123, 145, 0.5);
 }
 main section div .card-link a:hover {
   color: rgb(54, 3, 28);
