@@ -330,8 +330,9 @@ main section div .form .input-button {
   font-size: 14px;
 }
 main section div .form .input-button button {
-  border-radius: 8px;
+  margin: 5px;
   padding: 10px 40px;
+  border-radius: 8px;
   text-decoration: none;
   background-color: rgb(255, 255, 255);
   color: rgb(62, 92, 73);

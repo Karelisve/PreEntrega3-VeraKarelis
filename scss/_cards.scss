@@ -28,9 +28,7 @@ main {
                     margin: 0px;
                 }
                 button {
-                    margin: 10px;
-                    padding: 2px 20px;
-                    border-radius: 6px;
+                    @include boton(10px,2px 20px,6px);
                     color: $color-basic;
                     background-color: $color-bg-w;
                     &:hover {
